@@ -1,4 +1,4 @@
-package unaryoperator;
+package chap3.operator.unaryoperator;
 
 public class SignOperatorExample {
 	public static void main(String[] args) {

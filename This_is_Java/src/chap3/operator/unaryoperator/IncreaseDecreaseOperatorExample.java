@@ -1,4 +1,4 @@
-package unaryoperator;
+package chap3.operator.unaryoperator;
 
 public class IncreaseDecreaseOperatorExample {
 	public static void main(String[] args) {
