@@ -1,4 +1,4 @@
-package chap3.operator.unaryoperator;
+package chap3.operator.binaryoperator;
 
 public class OverflowExample {
 	public static void main(String[] args) {

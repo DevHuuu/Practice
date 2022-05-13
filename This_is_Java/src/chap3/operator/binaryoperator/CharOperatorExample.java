@@ -1,4 +1,4 @@
-package chap3.operator.unaryoperator;
+package chap3.operator.binaryoperator;
 
 public class CharOperatorExample {
 	public static void main(String[] args) {

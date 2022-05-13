@@ -1,4 +1,4 @@
-package chap3.operator.unaryoperator;
+package chap3.operator.binaryoperator;
 
 public class AccuracyExample2 {
 	public static void main(String[] args) {
