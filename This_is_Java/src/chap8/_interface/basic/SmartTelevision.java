@@ -1,19 +1,15 @@
-package chap8._interface;
+package chap8._interface.basic;
 
-//구현클래스
-public class Television implements RemoteControl{
-	//필드
+//다중 인터페이스 구현 클래스
+public class SmartTelevision implements RemoteControl, Searchable {
 	private int volume;
 	
-	//turnOn() 추상 메소드의 실체 메소드
 	public void turnOn() {
 		System.out.println("TV를 켭니다.");
 	}
-	//turnOff() 추상 메소드의 실체 메소드
 	public void turnOff() {
 		System.out.println("TV를 끕니다.");
 	}
-	//setVolume() 추상 메소드의 실체 메소드
 	public void setVolume(int volume) {
 		if(volume>RemoteControl.MAX_VOLUME) {
 			this.volume = RemoteControl.MAX_VOLUME;
@@ -24,5 +20,7 @@ public class Television implements RemoteControl{
 		}
 		System.out.println("현재 TV 볼륨: " + this.volume);
 	}
-
+	public void search(String url) {
+		System.out.println(url + "을 검색합니다.");
+	}
 }

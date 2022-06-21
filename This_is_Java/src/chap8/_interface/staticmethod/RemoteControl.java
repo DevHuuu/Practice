@@ -1,4 +1,4 @@
-package chap8._interface;
+package chap8._interface.staticmethod;
 
 //인터페이스
 public interface RemoteControl {
