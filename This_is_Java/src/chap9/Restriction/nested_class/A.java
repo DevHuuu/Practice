@@ -1,4 +1,4 @@
-package chap9.nested_class2;
+package chap9.Restriction.nested_class;
 
 public class A {
 	//인스턴스 필드
