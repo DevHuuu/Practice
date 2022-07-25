@@ -1,4 +1,4 @@
-package chap11.classobjects.compare;
+package chap11.classobjects;
 
 import java.util.Comparator;
 import java.util.Objects;
